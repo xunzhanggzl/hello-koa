@@ -1,9 +1,10 @@
-// demos/02.js
+const fs = require('fs');
 const Koa = require('koa');
 const app = new Koa();
 
 const main = ctx => {
-  ctx.response.body = 'Hello World';
+  ctx.response.type = 'html';
+  ctx.response.body = fs.createReadStream('./demos/template.html');
 };
 
 app.use(main);
