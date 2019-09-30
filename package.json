@@ -4,7 +4,9 @@
   "description": "\"a collection of simple demos of Koa\"",
   "main": "index.js",
   "dependencies": {
-    "koa": "^2.8.2"
+    "koa": "^2.8.2",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {
