@@ -4,6 +4,7 @@
   "description": "\"a collection of simple demos of Koa\"",
   "main": "index.js",
   "dependencies": {
+    "fs.promised": "^3.0.0",
     "koa": "^2.8.2",
     "koa-route": "^3.2.0",
     "koa-static": "^5.0.0"
